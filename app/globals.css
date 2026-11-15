@@ -187,33 +187,8 @@ h3 { font-size: clamp(20px, 1.8vw, 28px); }
   padding-bottom: 5vh;
 }
 
-.hero__badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 6px 16px;
-  background: rgba(21, 19, 17, 0.05);
-  border: 1px solid rgba(21, 19, 17, 0.14);
-  border-radius: 999px;
-  font-size: 11px;
-  letter-spacing: 0.18em;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: var(--ink);
+.hero__center .label {
   animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both 0.05s;
-  transition: transform 0.25s ease, background 0.25s ease;
-}
-.hero__badge:hover {
-  background: rgba(21, 19, 17, 0.08);
-  transform: translateY(-1px);
-}
-.hero__badge-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--red);
-  display: inline-block;
-  animation: pulseDot 2.4s infinite ease-in-out;
 }
 
 .hero__title {

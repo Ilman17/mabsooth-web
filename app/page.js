@@ -62,10 +62,7 @@ export default function Home() {
           </span>
         </Link>
         <div className="hero__center">
-          <span className="hero__badge">
-            <span className="hero__badge-dot" />
-            HAPPY MOSLEM WEAR
-          </span>
+          <p className="label">HAPPY MOSLEM WEAR</p>
           <h1 className="hero__title">KEMEJA YANG DIJAHIT UNTUK AWET.</h1>
           <p className="hero__sub">Koleksi Shanghai Oxford, untuk ibadah, kerja, dan keseharian.</p>
           <Link href="/#produk" className="btn btn--hero">
