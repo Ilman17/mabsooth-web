@@ -25,6 +25,7 @@ export default function ProductGrid() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={p.image} alt={`${p.name} ${p.color}`} loading="lazy" />
               <span className="card__tag">-{Math.round((1 - p.price / p.oldPrice) * 100)}%</span>
+              <span className="card__hover-cta">Lihat Detail →</span>
             </div>
             <div className="card__meta">
               <span>{p.code}</span>
